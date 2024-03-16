@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200px"
+        android:src="@drawable/baseline_fingerprint_24"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/tx_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <Button
+        android:id="@+id/btn_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/biometric_error_color"
+        android:text="Login FringerPrint"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:id="@+id/btn_fppin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FringerPrint + Pin"
+        android:gravity="center"
+        android:layout_marginTop="38dp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create by"
+        android:gravity="center"
+        android:layout_marginTop="256dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashen Madhushanka"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
